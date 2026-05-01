@@ -127,3 +127,20 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project-specific: large data files should not be committed
+data/*.h5ad
+data/*.parquet
+data/*.csv
+data/raw/
+data/processed/
+!data/.gitkeep
+!data/README.md
+
+# Figures stay; large pickled models do not
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/

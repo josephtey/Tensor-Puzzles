@@ -1,0 +1,32 @@
+{
+  "perturbation_target": {
+    "exact": [
+      "gene",
+      "perturbation"
+    ],
+    "partial": [
+      "gene_id",
+      "gene_transcript",
+      "perturbation_type",
+      "ngenes"
+    ]
+  },
+  "guide": {
+    "exact": [
+      "guide_id"
+    ],
+    "partial": []
+  },
+  "batch": {
+    "exact": [
+      "batch"
+    ],
+    "partial": [
+      "z_gemgroup_UMI"
+    ]
+  },
+  "cell_cycle": {
+    "exact": [],
+    "partial": []
+  }
+}

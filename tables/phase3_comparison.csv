@@ -1,0 +1,7 @@
+modality,subset,within_site_tech,cross_site_tech,biological_signal,residual,source,extra
+Replogle K562 essential perturb-seq,"this analysis (targeted-only, hierarchical ANOVA)",4.6% (gemgroup),n/a (single site),14.3% (target gene),80.2%,"this repository, src/phase1_replogle/",guide-within-target: 0.4%
+"JUMP-CP Cell Painting TARGET2 (raw, no batch correction)","this analysis (hierarchical ANOVA across 11 sites, 22 TARGET2 plates)",3.1% (plate within source),77.4% (source/site),2.5% (compound),12.4%,"this repository, src/phase2_jumpcp/",
+JUMP-CP Cell Painting TARGET2 (per-plate z-scored),"this analysis (hierarchical ANOVA across 11 sites, 22 TARGET2 plates)",0.2% (plate within source),4.3% (source/site),24.7% (compound),71.3%,"this repository, src/phase2_jumpcp/",
+Bulk RNA-seq (GTEx),literature,<5%,5-10%,60-80% (tissue),<20%,GTEx Consortium 2017 / 2020,
+Cross-lab scRNA-seq atlas integration,literature,5-15%,20-40%,30-50% (cell type),remainder,"Luecken et al. 2022, Nat Methods (benchmarking integration)",
+Spatial transcriptomics (Visium/Xenium),literature,10-25%,30-50%,20-40%,remainder,Spatial Touchstone 2025 / Hartman et al. (HuBMAP) 2024,
