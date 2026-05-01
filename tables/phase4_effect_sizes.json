@@ -1,0 +1,27 @@
+{
+  "replogle": {
+    "biological_effect_log2_fc_median": 0.7999999523162842,
+    "biological_effect_fold_change_median": 1.7411010690456652,
+    "technical_noise_log_std_median": 0.12203509237210246,
+    "snr_median": 3.6697288773152286,
+    "snr_p10": 1.8888686029300383,
+    "snr_p90": 5.070444636687467,
+    "n_target_genes": 1516
+  },
+  "jumpcp": {
+    "raw_global_zscore": {
+      "median_compound_vs_dmso_z_delta": 0.14547113188601674,
+      "median_within_plate_dmso_std": 0.11722732149458413,
+      "median_cross_site_dmso_drift_std": 1.0095135351417426,
+      "snr_vs_within_plate": 1.240931977557275,
+      "snr_vs_cross_site": 0.14410022929072624
+    },
+    "per_plate_zscore": {
+      "median_compound_vs_dmso_z_delta": 0.5532460506602772,
+      "median_within_plate_dmso_std": 0.7746272545807555,
+      "median_cross_site_dmso_drift_std": 0.16512899603029307,
+      "snr_vs_within_plate": 0.7142093792706862,
+      "snr_vs_cross_site": 3.3503870547289205
+    }
+  }
+}

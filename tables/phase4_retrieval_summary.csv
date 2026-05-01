@@ -1,0 +1,7 @@
+modality,key,scenario,mAP,knn_purity_k1,knn_purity_k5,knn_purity_k10,mean_same_class_cosine,mean_cross_class_cosine,n_queries,n_classes
+replogle,within_site,"Replogle K562 perturb-seq (within site, no correction)",0.0592,0.1553,0.1252,0.1071,0.9885,0.99,20535,1336
+replogle,cross_batch,"Replogle K562 perturb-seq (cross-batch, no correction)",0.0592,0.1553,0.1252,0.1071,0.9885,0.99,20535,1336
+jumpcp,raw_within_anywhere,"JUMP-CP raw, retrieve same compound (any well)",0.0332,0.072,0.052,0.047,0.925,0.9168,10721,302
+jumpcp,per_plate_within_anywhere,"JUMP-CP per-plate z-scored, retrieve same compound (any well)",0.0503,0.1301,0.0894,0.0792,0.5313,0.5314,10721,302
+jumpcp,raw_cross_site,"JUMP-CP raw, retrieve same compound at a different site",0.0232,0.0,0.0003,0.0006,0.7327,0.9159,10721,302
+jumpcp,per_plate_cross_site,"JUMP-CP per-plate z-scored, retrieve same compound at a different site",0.0396,0.0254,0.0296,0.0322,0.5181,0.53,10721,302

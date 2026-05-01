@@ -1,0 +1,96 @@
+{
+  "replogle": {
+    "within_site": {
+      "mAP": 0.059169995686480105,
+      "n_queries": 20535,
+      "n_classes": 1336,
+      "n_samples": 20535,
+      "median_class_size": 11.0,
+      "knn_purity": {
+        "1": 0.15529583637691746,
+        "5": 0.12515217920623325,
+        "10": 0.10706111516922327
+      },
+      "mean_same_class_cosine": 0.988528847694397,
+      "mean_cross_class_cosine": 0.99000084400177,
+      "scenario": "Replogle K562 perturb-seq (within site, no correction)"
+    },
+    "cross_batch": {
+      "mAP": 0.059170789841675744,
+      "n_queries": 20535,
+      "n_classes": 1336,
+      "n_samples": 20535,
+      "median_class_size": 11.0,
+      "knn_purity": {
+        "1": 0.15529583637691746,
+        "5": 0.12515217920623325,
+        "10": 0.10705137570002435
+      },
+      "mean_same_class_cosine": 0.9885278344154358,
+      "mean_cross_class_cosine": 0.9900009036064148,
+      "scenario": "Replogle K562 perturb-seq (cross-batch, no correction)"
+    }
+  },
+  "jumpcp": {
+    "raw_within_anywhere": {
+      "mAP": 0.03318482400670333,
+      "n_queries": 10721,
+      "n_classes": 302,
+      "n_samples": 10721,
+      "median_class_size": 28.0,
+      "knn_purity": {
+        "1": 0.07200820818953456,
+        "5": 0.05202872866337095,
+        "10": 0.046954575132916704
+      },
+      "mean_same_class_cosine": 0.9249722361564636,
+      "mean_cross_class_cosine": 0.916756272315979,
+      "scenario": "JUMP-CP raw, retrieve same compound (any well)"
+    },
+    "per_plate_within_anywhere": {
+      "mAP": 0.05031578312709046,
+      "n_queries": 10721,
+      "n_classes": 302,
+      "n_samples": 10721,
+      "median_class_size": 28.0,
+      "knn_purity": {
+        "1": 0.13011845909896466,
+        "5": 0.08935733606939651,
+        "10": 0.07918104654416566
+      },
+      "mean_same_class_cosine": 0.5312813520431519,
+      "mean_cross_class_cosine": 0.5314230918884277,
+      "scenario": "JUMP-CP per-plate z-scored, retrieve same compound (any well)"
+    },
+    "raw_cross_site": {
+      "mAP": 0.023162456973498818,
+      "n_queries": 10721,
+      "n_classes": 302,
+      "n_samples": 10721,
+      "median_class_size": 28.0,
+      "knn_purity": {
+        "1": 0.0,
+        "5": 0.0002984796194384852,
+        "10": 0.0006156142150918757
+      },
+      "mean_same_class_cosine": 0.7327123880386353,
+      "mean_cross_class_cosine": 0.9158894419670105,
+      "scenario": "JUMP-CP raw, retrieve same compound at a different site"
+    },
+    "per_plate_cross_site": {
+      "mAP": 0.03958463063488223,
+      "n_queries": 10721,
+      "n_classes": 302,
+      "n_samples": 10721,
+      "median_class_size": 28.0,
+      "knn_purity": {
+        "1": 0.025370767652271243,
+        "5": 0.029624102229269658,
+        "10": 0.032235798899356405
+      },
+      "mean_same_class_cosine": 0.5180827379226685,
+      "mean_cross_class_cosine": 0.5299669504165649,
+      "scenario": "JUMP-CP per-plate z-scored, retrieve same compound at a different site"
+    }
+  }
+}
